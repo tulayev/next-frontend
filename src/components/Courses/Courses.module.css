@@ -1,0 +1,54 @@
+.content__wrapper {
+    padding-top: 172px;
+}
+.content__title {
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content__link {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.content__link span {
+    font-size: 14px;
+    color: #E30A17;
+    margin-right: 8px;
+}
+
+/* RESPONSIVE PART */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content__title {
+        font-size: 24px;
+    }
+    .content__link {
+        justify-content: flex-end;
+    }
+    .content__link span {
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

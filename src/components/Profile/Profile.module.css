@@ -1,0 +1,107 @@
+.wrapper {
+    padding: 40px 0;
+}
+.wrapper a {
+    color: #151515;
+    font-size: 14px;
+}
+.seminars__wrapper {
+    padding-top: 30px;
+}
+.seminars__tab li {
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #9092A3;
+    font-size: 14px;
+}
+.seminars__content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #9092a33d;
+}
+.seminars__content div {
+    width: 33.3%;
+}
+.seminars__content h3 {
+    color: #9092A3;
+    font-size: 14px;
+}
+.seminars__content p {
+    margin-top: 2px;
+    color: #151515;
+    font-size: 14px;
+    font-weight: 500;
+}
+.seminars__content a {
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #E30A17;
+    border-radius: 12px;
+}
+
+/* RESPONSIVE PART */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .seminars__content {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .wrapper {
+        padding: 48px 0 130px 0;
+    }
+    .wrapper a {
+        font-size: 16px;
+    }
+    .seminars__wrapper {
+        padding-top: 70px;
+    }
+    .seminars__tab li {
+        padding: 14px 18px;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    .seminars__content {
+        margin-left: 20px;
+    }
+    .seminars__content h3 {
+        font-size: 16px;
+    }
+    .seminars__content p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .seminars__content a {
+        padding: 14px 30px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: inherit;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+
+body {
+	font-family: Inter;
+	color: #151515;
+}
+
+button, 
+input[type="submit"], 
+input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* React Tabs Package */
+.react-tabs__tab--selected {
+    color: #151515 !important;
+    background-color: #9092a31f !important;
+}

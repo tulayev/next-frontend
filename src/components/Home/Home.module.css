@@ -1,0 +1,137 @@
+/* Main Section */
+.main__wrapper {
+    padding-top: 180px;
+}
+.main__title {
+    font-size: 36px;
+    font-weight: 600;
+}
+.main__subtitle {
+    margin-top: 24px;
+}
+.main__stats_list {
+    display: flex;
+    margin-top: 30px;
+}
+.main__stats_list li {
+    margin: 0 6px;
+}
+.main__stats_list li:nth-child(1) {
+    margin-left: 0;
+}
+.main__stats_list li>div {
+    font-size: 12px;
+}
+.main__stats_list li img {
+    margin-right: 6px;
+}
+.menu__splitter {
+    width: 1.5px;
+    height: 100%;
+    background-color: #9092A3;
+    opacity: 0.48;
+}
+
+/* Content Section */
+.content__wrapper {
+    padding-top: 72px;
+}
+.content__title {
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.content__link {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.content__link span {
+    font-size: 12px;
+    color: #E30A17;
+    margin-right: 8px;
+}
+
+/* RESPONSIVE PART */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main__stats_list {
+        flex-direction: column;
+    }
+    .main__stats_list li {
+        margin: 5px 0;
+    }
+    .main__stats_list li:nth-child(2n) {
+        margin: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main__wrapper {
+        padding-top: 200px;
+    }
+    .main__stats_list {
+        margin-top: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content__title {
+        font-size: 24px;
+    }
+    .content__link {
+        justify-content: flex-end;
+        margin: 0;
+    }
+    .content__link span {
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main__wrapper {
+        padding-top: 250px;
+    }
+    .main__title {
+        font-size: 40px;
+    }
+    .main__subtitle {
+        font-size: 18px;
+        opacity: 0.8;
+    }    
+    .main__stats_list {
+        margin-top: 100px;
+    }
+    .main__stats_list li {
+        margin: 0 12px;
+    }
+    .main__stats_list li>div {
+        font-size: 14px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main__wrapper {
+        padding-top: 380px;
+    }
+    .main__title {
+        font-size: 56px;
+    }
+    .main__subtitle {
+        font-size: 20px;
+    }    
+    .main__stats_list {
+        margin-top: 226px;
+    }
+    .content__title {
+        font-size: 30px;
+    }
+    .content__link span {
+        font-size: 18px;
+    }
+}

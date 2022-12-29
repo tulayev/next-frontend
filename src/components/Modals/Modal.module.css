@@ -1,0 +1,152 @@
+/* Common Modal styles */
+.modal {
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #15151566;
+}
+.modal__box {
+    padding: 30px 32px 32px 32px;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 360px;
+    background-color: #FFFFFF;
+    box-shadow: 80px 120px 504px rgba(0, 0, 0, 0.16);
+    border-radius: 24px;
+}
+.modal__box h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.modal__box p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    color: #9092A3;
+}
+.modal__box input,
+.modal__box button {
+    border-radius: 12px;
+}
+.modal__box input {
+    background-color: #9092a31f;
+}
+.modal__box button {
+    background-color: #E30A17;
+    color: #FFFFFF;
+}
+.modal__box>div {
+    border-radius: 24px;
+}
+.modal__box>div input {
+    width: 100%;
+}
+/* Sign Up Modal */
+#signInForm input {
+    padding: 12px;
+    border-radius: 12px;
+    color: #9092A3;
+    background-color: #9092a31f;
+    margin-right: 8px;
+}
+#signInForm form button, 
+#personalDataForm form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#signInForm .code {
+    margin-right: 8px;
+    font-size: 18px;
+}
+#signInForm .text {
+    text-align: center;
+    color: #9092A3;
+    font-size: 12px;
+    margin: 10px;
+}
+#signInForm a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+    text-align: center;
+    color: #171717;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #F3F6F8;
+    border-radius: 12px;
+}
+#signInForm a>img {
+    margin-right: 12px;
+}
+/* Confirm Code Modal */
+#confirmForm p>b {
+    color: #171717;
+}
+#confirmForm form input {
+    margin: 0 3px;
+    text-align: center;
+    padding: 12px 0;
+}
+#confirmForm form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 14px;
+    margin-top: 24px;
+}
+#confirmForm form button:nth-child(2) {
+    background-color: #15151566;
+}
+/* Personal Data Modal */
+#personalDataForm form input {
+    margin: 0 6px;
+    padding: 12px 24px;
+}
+#personalDataForm form button {
+    width: 100%;
+    margin-top: 18px;
+}
+#successMessageModal h2, 
+#successMessageModal p, 
+#profileModal h2, 
+#profileModal p {
+    text-align: left;
+}
+#successMessageModal p,
+#profileModal p {
+    font-size: 16px;
+    font-weight: 500;
+}
+#successMessageModal p>b,
+#profileModal p {
+    color: #151515;
+}
+#successMessageModal button {
+    width: 100%;
+    padding: 14px 0;
+}
+#profileModal button {
+    width: 50%;
+    padding: 14px 0;
+}
+#profileModal button:nth-child(1) {
+    margin-right: 3.5px;
+}
+#profileModal button:nth-child(2) {
+    margin-left: 3.5px;
+    background-color: #9092a37a;
+}

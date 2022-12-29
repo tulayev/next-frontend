@@ -1,0 +1,9 @@
+{
+    "locales": ["uz", "oz"],
+    "defaultLocale": "uz",
+    "localeDetection": false,
+    "pages": {
+        "*": ["header", "footer"],
+        "/": ["home"]
+    }
+}
